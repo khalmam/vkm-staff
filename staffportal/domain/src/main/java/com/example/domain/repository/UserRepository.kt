@@ -1,3 +1,5 @@
 package com.example.domain.repository
 
-annotation class UserRepository
+interface UserRepository {
+    fun getUserName(): String
+}
